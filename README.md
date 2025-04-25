@@ -1,14 +1,40 @@
-# Witcher Game
+# Next.js 3D Game Collection
 
-A browser-based 3D Witcher game built with Next.js, TypeScript, and Three.js. This project features:
+This repository contains three browser-based 3D games built with Next.js, TypeScript, and Three.js:
+
+## 1. Warhammer Floating Tank
+
+A futuristic hover tank game inspired by Warhammer 40K featuring:
+
+- Smooth hover physics with realistic momentum
+- WASD/Arrow keys for driving controls
+- Space bar to fire the main cannon
+- Mobile-friendly on-screen controls
+- Dynamic camera that follows the tank
+- Projectile system with collision detection
+
+## 2. Witcher Adventure
+
+A 3D action RPG inspired by The Witcher series:
 
 - 3rd person view for the witcher character
 - WASD movement controls
 - Combat mechanics (attack with left click, block with right click)
-- Enemy AI with different behaviors (aggressive wolves/bears, fleeing deer)
+- Enemy AI with different behaviors (aggressive monsters, fleeing creatures)
 - Health system with visual health bars
 - Score tracking
-- Immersive 3D environment
+- Immersive 3D environment with Witcher-inspired landscapes
+
+## 3. Imperial Car Racer
+
+A Warhammer-themed racing game with:
+
+- Control a sleek imperial car through dangerous terrain
+- Dodge or destroy enemy obstacles
+- Collect power-ups to enhance your weapons and speed
+- Multiple weapon types inspired by Warhammer lore
+- Progressive difficulty system
+- High score tracking
 
 ## Getting Started
 
@@ -22,21 +48,7 @@ A browser-based 3D Witcher game built with Next.js, TypeScript, and Three.js. Th
    npm run dev
    ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Game Controls
-
-- **W, A, S, D**: Move the character
-- **Left Mouse Button**: Attack with sword
-- **Right Mouse Button**: Block incoming attacks
-
-## Game Mechanics
-
-- Enemies have different behaviors:
-  - Wolves and bears will chase and attack you
-  - Deer will flee when you get close
-- Your health is displayed at the top of the screen
-- Blocking reduces damage taken
-- Score increases when you kill enemies
+5. Navigate between games using the main menu
 
 ## Technologies Used
 
@@ -48,11 +60,11 @@ A browser-based 3D Witcher game built with Next.js, TypeScript, and Three.js. Th
 
 ## Future Enhancements
 
-- Add more detailed character/enemy models
-- Implement additional combat moves
-- Add sound effects and music
-- Implement different zones/levels
-- Add inventory system
+- Add multiplayer capabilities
+- Implement save game functionality
+- Add more detailed models and environments
+- Enhance mobile controls
+- Add sound effects and background music
 
 ## License
 
